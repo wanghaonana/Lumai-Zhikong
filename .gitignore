@@ -1,0 +1,93 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and local interpreters
+.venv/
+venv/
+env/
+ENV/
+conda-env/
+.conda/
+python/
+Python/
+Scripts/
+Lib/
+site-packages/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+credentials.json
+secrets.json
+*secret*.local
+config.local.*
+!.gitignore
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Runtime outputs / generated simulations
+logs/
+log/
+runs/
+cache/
+tmp/
+temp/
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ML training artifacts (publish explicitly via appropriate release mechanisms)
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.onnx
+*.safetensors
+wandb/
+tensorboard/
+lightning_logs/
+
+# Large experiment exports - review before publishing
+results/
+outputs/
+*.mp4
+*.avi
+*.mov
+*.zip
+*.7z
+*.rar
+
+# SUMO generated runtime reports (source .net.xml, .rou.xml, .sumocfg
+# are intentionally NOT ignored; review redistribution rights)
+tripinfo*.xml
+fcd*.xml
+emission*.xml
+vehroute*.xml
+summary*.xml
+statistic*.xml
+
+# Frontend generated assets
+node_modules/
+.frontend-cache/
+coverage/
