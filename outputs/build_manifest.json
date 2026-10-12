@@ -1,0 +1,10 @@
+{
+  "config.py": "d1c83f8691d8c77f4a6bba757669e8abeec79c3c275ad6316dcc4e3ad11ea6db",
+  "engine.py": "fc1e052319c63be195bacdb884df159c97bb8fe9f31b53c0a2f38025234b974d",
+  "network.py": "f1b06b01c78230f6e52ec8232629f45e5657ff2bd7087cd91cb6907ae48df3ea",
+  "predictor.py": "95fba8472936994092de6dad9bc08c94d361b845834146b68c1e50ede11db79f",
+  "server.py": "3090a4374fee3a771f35d55b72cbf1fa65f0aef574721644d02b34cf8a699644",
+  "train_validate.py": "9bf8330a122685f0bf07f0503633ece8280d9b4a1cf7ab90d57e1316d68ae889",
+  "models/forecast.npz": "0926cb27ba3a8e06b5bad38296bc41540a829fc47451a8401f14d75e14ee480a",
+  "models/metrics.json": "9e482b19d512ae4b5e222bfafd26f35714bf765ecaafa2882372dbc54bd32a8e"
+}

@@ -1,0 +1,130 @@
+{
+  "model": "Graph-state random-feature residual + physical supply model",
+  "training_seeds": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "validation_seeds": [
+    51,
+    52
+  ],
+  "test_seeds": [
+    81,
+    82
+  ],
+  "samples_train": 96000,
+  "samples_test": 18000,
+  "horizon_minutes": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60
+  ],
+  "ridge": 1000,
+  "mae": {
+    "flow": 31.24,
+    "speed": 1.895,
+    "density": 2.982
+  },
+  "persistence_mae": {
+    "flow": 60.243,
+    "speed": 3.091,
+    "density": 5.24
+  },
+  "physical_mae": {
+    "flow": 59.865,
+    "speed": 2.47,
+    "density": 4.456
+  },
+  "note": "仅为独立随机种子的合成交通仿真误差；不是现场精度。训练、验证、测试整次仿真隔离。",
+  "per_horizon": {
+    "5": {
+      "flow": 31.093,
+      "speed": 2.728,
+      "density": 2.828
+    },
+    "10": {
+      "flow": 31.056,
+      "speed": 1.932,
+      "density": 2.823
+    },
+    "15": {
+      "flow": 31.896,
+      "speed": 1.722,
+      "density": 2.861
+    },
+    "20": {
+      "flow": 32.806,
+      "speed": 1.775,
+      "density": 3.137
+    },
+    "25": {
+      "flow": 33.758,
+      "speed": 1.855,
+      "density": 3.344
+    },
+    "30": {
+      "flow": 32.374,
+      "speed": 1.806,
+      "density": 2.875
+    },
+    "35": {
+      "flow": 31.015,
+      "speed": 1.665,
+      "density": 2.823
+    },
+    "40": {
+      "flow": 30.168,
+      "speed": 1.923,
+      "density": 3.178
+    },
+    "45": {
+      "flow": 29.808,
+      "speed": 1.775,
+      "density": 3.011
+    },
+    "50": {
+      "flow": 31.604,
+      "speed": 1.785,
+      "density": 2.922
+    },
+    "55": {
+      "flow": 29.851,
+      "speed": 1.851,
+      "density": 2.913
+    },
+    "60": {
+      "flow": 29.493,
+      "speed": 1.916,
+      "density": 3.068
+    }
+  },
+  "active_samples": 15114,
+  "active_mae": {
+    "flow": 34.349,
+    "speed": 2.105,
+    "density": 3.433
+  },
+  "active_persistence_mae": {
+    "flow": 69.936,
+    "speed": 3.638,
+    "density": 6.142
+  },
+  "active_physical_mae": {
+    "flow": 69.286,
+    "speed": 2.933,
+    "density": 5.307
+  }
+}

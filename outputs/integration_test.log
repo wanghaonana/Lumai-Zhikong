@@ -1,0 +1,12 @@
+test_01_real_network (__main__.Integration.test_01_real_network) ... ok
+test_02_paired_initial_state (__main__.Integration.test_02_paired_initial_state) ... ok
+test_03_trained_prediction (__main__.Integration.test_03_trained_prediction) ... ok
+test_04_disturbance_controls_sumo (__main__.Integration.test_04_disturbance_controls_sumo) ... ok
+test_05_environment_and_autonomy (__main__.Integration.test_05_environment_and_autonomy) ... ok
+test_06_real_controller_and_conservation (__main__.Integration.test_06_real_controller_and_conservation) ... ok
+test_07_export_and_guardrails (__main__.Integration.test_07_export_and_guardrails) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 12.340s
+
+OK
